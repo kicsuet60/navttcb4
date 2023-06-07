@@ -1,0 +1,83 @@
+<DOCTYPE html>
+	<html>
+
+	<head>
+		<title>Big Box with Small Boxes</title>
+		<style>
+			
+			body {
+				
+				background-color: grey;
+			}
+
+			.big-box {
+				text-align: center;
+				width: 300px;
+				height: 300px;
+				background-color: #fff;
+				margin: auto;
+				position: relative;
+				border: 2px solid #000;
+			}
+
+			.small-box {
+				position: absolute;
+				border: 5px solid;
+				box-sizing: border-box;
+			}
+
+			.top-left {
+				top: 0;
+				left: 0;
+				width: 100px;
+				height: 100px;
+				border-color: #ff0000;
+			}
+
+			.top-right {
+				top: 0;
+				right: 0;
+				width: 100px;
+				height: 100px;
+				border-color: #00ff00;
+			}
+
+			.bottom-left {
+				bottom: 0;
+				left: 0;
+				width: 100px;
+				height: 100px;
+				border-color: #0000ff;
+			}
+
+			.bottom-right {
+				bottom: 0;
+				right: 0;
+				width: 100px;
+				height: 100px;
+				border-color: #ffff00;
+			}
+
+			.center-box {
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100px;
+				height: 100px;
+				border-color: #000;
+				z-index: 100;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="big-box">
+			<div class="small-box top-left"></div>
+			<div class="small-box top-right"></div>
+			<div class="small-box bottom-left"></div>
+			<div class="small-box bottom-right"></div>
+			<div class="small-box center-box"></div>
+		</div>
+	</body>
+
+	</html>
