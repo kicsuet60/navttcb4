@@ -1,0 +1,19 @@
+17.Make 3 pages of home page, admission form, and about us page using bootstrap
+classes with navigation bars, headers, footers and forms.
+https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+
+
+16. A progress bar for student’s
+skills in coding languages using bootstrap.
+https://www.w3schools.com/bootstrap/bootstrap_progressbars.asp
+
+
+15. Forms using bootstrap
+Make a form using Bootstrap classes for buttons and
+forms.
+https://www.w3schools.com/bootstrap/bootstrap_forms.asp
+
+
+14 Bootstrap based columns
+Make different sizes of columns using bootstrap classes.
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
